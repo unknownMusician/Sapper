@@ -1,0 +1,48 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#field {
+    background-color: black;
+    display: grid;
+}
+
+.cell {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 3px solid #555;
+    border-top-color: #888;
+    border-left-color: #888;
+    background-color: #bbb;
+    transition: 0.2s;
+}
+
+.opened {
+    background-color: white;
+    border: 1px solid #888;
+}
+
+.flag {
+    border: 2px dashed orangered;
+}
+
+.selected {
+    background-color: orange;
+}
